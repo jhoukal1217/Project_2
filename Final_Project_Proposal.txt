@@ -1,0 +1,36 @@
+1. Draft a well-formed problem statement relevant to a business problem affecting your team, division, or organization.
+
+
+
+JH: We, as an operations center, track data in response to actual customer contacts, but this paints an inherently skewed impression of our users. At the same time, we collect in a separate system quite a bit of information about user behavior and engagement. I therefore would like to use, somewhat inferentially, data from our other databases (e.g. our ODS tables) to paint a more complete picture of our users and to better predict rates of contact based on these latter engagement factors, such as activities completed, previous purchases, and even demographic factors. In other words, I would like to create a sort of rough prediction model for customer contacts. 
+
+
+
+2. Include the following elements:
+
+   
+- Hypothesis/assumptions
+   
+
+JH: As a rule, we're contacted more often by our more engaged users. Therefore, I assume that there will be a strong enough correlation between some engagement factor or factors and contact conversions to make such a study possible. 
+   
+   
+
+- Goals and success metrics
+   
+
+JH: I would like to be able to predict the rate of contact based on engagement factors with >50% accuracy. 
+
+   
+
+- Risks or limitations
+   
+
+JH: My only concern is that I am being too ambitious. I know the data exists, and I am confident that I can tidy it up to be usable. But I'm not sure that any single variable or small set of variables will demonstrate the relationship I'm hoping for, or at least not as cleanly as I'd like. We'll see. 
+
+
+
+3. Identify at least one relevant internal dataset and confirm that you have (or can get) the right access permissions.
+
+
+JH: Salesforce and ODS tables--I have full access to both. 
